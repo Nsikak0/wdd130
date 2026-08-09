@@ -67,18 +67,21 @@
                     <fieldset class="form-row purpose">
                         <legend>Purpose</legend>
 
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
+                        <label for="general-inquiry">
+                            <input type="radio" id="general-inquiry" name="purpose" value="general"
+                              required>
                             General Inquiry
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
+                        <label for="reservation-question">
+                            <input type="radio" id="reservation-question" name="purpose"
+                              value="reservation">
                             Reservation Question
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
+                        <label for="website-suggestion">
+                            <input type="radio" id="website-suggestion" name="purpose"
+                              value="suggestion">
                             Website Suggestion
                         </label>
                     </fieldset>
@@ -89,8 +92,8 @@
                           required></textarea>
                     </div>
 
-                    <label class="newsletter">
-                        <input type="checkbox" name="newsletter">
+                    <label class="newsletter" for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
                         Please subscribe me to the monthly newsletter
                     </label>
 
