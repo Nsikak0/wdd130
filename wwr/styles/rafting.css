@@ -78,6 +78,11 @@ nav a {
     border-radius: 4px;
 }
 
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
 /* ---------- HERO ---------- */
 .hero {
     position: relative;
@@ -121,7 +126,7 @@ nav a {
 main > section {
     margin: 28px 0;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--accent2-color);
     background-color: #f8f8f8;
 }
 
